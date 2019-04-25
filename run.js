@@ -107,5 +107,8 @@ function postListing() {
 }
 
 function bidListing() {
-    //
+    // Make query to db to get all listings
+    // Use Inquirer to show all active listings (use a loop to create choices from db response)
+    // Keep track of selected listing ID
+    // Bid: if higher than curr_price, replace curr_price with bid
 }
